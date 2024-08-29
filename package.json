@@ -1,0 +1,30 @@
+{
+  "name": "ggzx",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.13",
+    "mockjs": "^1.1.0",
+    "sass": "^1.77.8",
+    "vite-plugin-mock": "^3.0.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.5.4",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
